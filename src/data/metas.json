@@ -1,0 +1,17 @@
+{
+  "metas": [
+    { "indicadorId": "IND-F01", "anio": 2026, "mes": null, "valorMeta": 4500, "nota": "Meta anual ≤ Q4,500/ha" },
+    { "indicadorId": "IND-F02", "anio": 2026, "mes": null, "valorMeta": 2.5, "nota": "Meta mensual ≥ Q2.5M" },
+    { "indicadorId": "IND-F03", "anio": 2026, "mes": null, "valorMeta": 35, "nota": "Meta anual ≥ 35%" },
+    { "indicadorId": "IND-F04", "anio": 2026, "mes": null, "valorMeta": 90, "nota": "Meta anual ≥ 90%" },
+    { "indicadorId": "IND-C01", "anio": 2026, "mes": null, "valorMeta": 45, "nota": "Meta mensual ≥ 45 clientes" },
+    { "indicadorId": "IND-C02", "anio": 2026, "mes": null, "valorMeta": 85, "nota": "Meta anual ≥ 85%" },
+    { "indicadorId": "IND-C03", "anio": 2026, "mes": null, "valorMeta": 3, "nota": "Meta mensual ≥ 3 contratos" },
+    { "indicadorId": "IND-P01", "anio": 2026, "mes": null, "valorMeta": 4.0, "nota": "Meta mensual ≥ 4.0 ton/ha" },
+    { "indicadorId": "IND-P02", "anio": 2026, "mes": null, "valorMeta": 90, "nota": "Meta mensual ≥ 90%" },
+    { "indicadorId": "IND-P03", "anio": 2026, "mes": null, "valorMeta": 8, "nota": "Meta mensual ≤ 8% (indicador inverso)" },
+    { "indicadorId": "IND-P04", "anio": 2026, "mes": null, "valorMeta": 85, "nota": "Meta mensual ≥ 85%" },
+    { "indicadorId": "IND-A01", "anio": 2026, "mes": null, "valorMeta": 80, "nota": "Meta mensual ≥ 80%" },
+    { "indicadorId": "IND-A02", "anio": 2026, "mes": null, "valorMeta": 6, "nota": "Meta mensual ≥ 6 h/persona" }
+  ]
+}

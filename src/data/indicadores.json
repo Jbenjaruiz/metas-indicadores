@@ -1,0 +1,147 @@
+{
+  "indicadores": [
+    {
+      "id": "IND-F01",
+      "objetivoId": "OE-F01",
+      "perspectivaId": "financiera",
+      "nombre": "Costo por hectárea",
+      "unidad": "Q/ha",
+      "formula": "Costo operativo total / Hectáreas trabajadas",
+      "tipo": "menor",
+      "responsableId": "u02",
+      "responsable": "Jefe Producción"
+    },
+    {
+      "id": "IND-F02",
+      "objetivoId": "OE-F02",
+      "perspectivaId": "financiera",
+      "nombre": "Ingresos por ventas",
+      "unidad": "Q millones",
+      "formula": "Suma total de ventas del período",
+      "tipo": "mayor",
+      "responsableId": "u03",
+      "responsable": "Jefe Ventas"
+    },
+    {
+      "id": "IND-F03",
+      "objetivoId": "OE-F02",
+      "perspectivaId": "financiera",
+      "nombre": "Rentabilidad neta",
+      "unidad": "%",
+      "formula": "(Ingresos − Costos totales) / Ingresos × 100",
+      "tipo": "mayor",
+      "responsableId": "u01",
+      "responsable": "Gerente"
+    },
+    {
+      "id": "IND-F04",
+      "objetivoId": "OE-F01",
+      "perspectivaId": "financiera",
+      "nombre": "Ejecución presupuestaria",
+      "unidad": "%",
+      "formula": "Gasto ejecutado / Presupuesto asignado × 100",
+      "tipo": "mayor",
+      "responsableId": "u01",
+      "responsable": "Jefe Admón."
+    },
+    {
+      "id": "IND-C01",
+      "objetivoId": "OE-C01",
+      "perspectivaId": "clientes",
+      "nombre": "Clientes activos",
+      "unidad": "N.°",
+      "formula": "Clientes con ≥ 1 compra en el período",
+      "tipo": "mayor",
+      "responsableId": "u03",
+      "responsable": "Jefe Ventas"
+    },
+    {
+      "id": "IND-C02",
+      "objetivoId": "OE-C02",
+      "perspectivaId": "clientes",
+      "nombre": "Satisfacción del cliente",
+      "unidad": "%",
+      "formula": "Promedio encuesta (1–5) × 20",
+      "tipo": "mayor",
+      "responsableId": "u03",
+      "responsable": "Jefe Ventas"
+    },
+    {
+      "id": "IND-C03",
+      "objetivoId": "OE-C01",
+      "perspectivaId": "clientes",
+      "nombre": "Nuevos contratos",
+      "unidad": "N.°",
+      "formula": "Contratos firmados en el mes",
+      "tipo": "mayor",
+      "responsableId": "u06",
+      "responsable": "Supervisor Ventas"
+    },
+    {
+      "id": "IND-P01",
+      "objetivoId": "OE-P01",
+      "perspectivaId": "procesos",
+      "nombre": "Rendimiento por hectárea",
+      "unidad": "ton/ha",
+      "formula": "Producción total / Hectáreas cosechadas",
+      "tipo": "mayor",
+      "responsableId": "u04",
+      "responsable": "Supervisor Campo"
+    },
+    {
+      "id": "IND-P02",
+      "objetivoId": "OE-P01",
+      "perspectivaId": "procesos",
+      "nombre": "% Área cosechada en tiempo",
+      "unidad": "%",
+      "formula": "Ha cosechadas en fecha / Total planificadas × 100",
+      "tipo": "mayor",
+      "responsableId": "u04",
+      "responsable": "Supervisor Campo"
+    },
+    {
+      "id": "IND-P03",
+      "objetivoId": "OE-P02",
+      "perspectivaId": "procesos",
+      "nombre": "Pérdidas postcosecha",
+      "unidad": "%",
+      "formula": "Pérdidas (ton) / Producción total × 100",
+      "tipo": "menor",
+      "responsableId": "u07",
+      "responsable": "Coordinador Almacén"
+    },
+    {
+      "id": "IND-P04",
+      "objetivoId": "OE-P01",
+      "perspectivaId": "procesos",
+      "nombre": "Eficiencia del riego",
+      "unidad": "%",
+      "formula": "Agua utilizada por planta / Agua aplicada × 100",
+      "tipo": "mayor",
+      "responsableId": "u08",
+      "responsable": "Coordinador Riego"
+    },
+    {
+      "id": "IND-A01",
+      "objetivoId": "OE-A01",
+      "perspectivaId": "aprendizaje",
+      "nombre": "% Personal capacitado",
+      "unidad": "%",
+      "formula": "Personal con capacitación completada / Total × 100",
+      "tipo": "mayor",
+      "responsableId": "u04",
+      "responsable": "Supervisor RRHH"
+    },
+    {
+      "id": "IND-A02",
+      "objetivoId": "OE-A01",
+      "perspectivaId": "aprendizaje",
+      "nombre": "Horas de capacitación",
+      "unidad": "h/persona",
+      "formula": "Total horas / Total colaboradores",
+      "tipo": "mayor",
+      "responsableId": "u04",
+      "responsable": "Supervisor RRHH"
+    }
+  ]
+}

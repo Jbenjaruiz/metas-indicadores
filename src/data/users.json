@@ -1,0 +1,94 @@
+{
+  "usuarios": [
+    {
+      "id": "u01",
+      "nombre": "Carlos Monterroso",
+      "rol": "Gerente",
+      "area": "Dirección General",
+      "areaId": "dir",
+      "email": "c.monterroso@agropecuaria.gt",
+      "avatar": "CM",
+      "indicadores": []
+    },
+    {
+      "id": "u02",
+      "nombre": "Ana Salguero",
+      "rol": "Jefe",
+      "area": "Producción Agrícola",
+      "areaId": "prod",
+      "email": "a.salguero@agropecuaria.gt",
+      "avatar": "AS",
+      "indicadores": ["IND-P01", "IND-P02", "IND-P03", "IND-P04"]
+    },
+    {
+      "id": "u03",
+      "nombre": "Roberto Chávez",
+      "rol": "Jefe",
+      "area": "Comercialización y Ventas",
+      "areaId": "ventas",
+      "email": "r.chavez@agropecuaria.gt",
+      "avatar": "RC",
+      "indicadores": ["IND-C01", "IND-C02", "IND-C03", "IND-F02"]
+    },
+    {
+      "id": "u04",
+      "nombre": "María López",
+      "rol": "Supervisor",
+      "area": "Campo Norte",
+      "areaId": "campo_norte",
+      "email": "m.lopez@agropecuaria.gt",
+      "avatar": "ML",
+      "indicadores": ["IND-P01", "IND-P02"]
+    },
+    {
+      "id": "u05",
+      "nombre": "Juan Pérez",
+      "rol": "Supervisor",
+      "area": "Campo Sur",
+      "areaId": "campo_sur",
+      "email": "j.perez@agropecuaria.gt",
+      "avatar": "JP",
+      "indicadores": ["IND-P03", "IND-P04"]
+    },
+    {
+      "id": "u06",
+      "nombre": "Lucía Cifuentes",
+      "rol": "Supervisor",
+      "area": "Ventas Región Central",
+      "areaId": "ventas_central",
+      "email": "l.cifuentes@agropecuaria.gt",
+      "avatar": "LC",
+      "indicadores": ["IND-C01", "IND-C03"]
+    },
+    {
+      "id": "u07",
+      "nombre": "Diego Morales",
+      "rol": "Coordinador",
+      "area": "Almacén / Postcosecha",
+      "areaId": "almacen",
+      "email": "d.morales@agropecuaria.gt",
+      "avatar": "DM",
+      "indicadores": ["IND-P03"]
+    },
+    {
+      "id": "u08",
+      "nombre": "Sofía Ramírez",
+      "rol": "Coordinador",
+      "area": "Sistema de Riego",
+      "areaId": "riego",
+      "email": "s.ramirez@agropecuaria.gt",
+      "avatar": "SR",
+      "indicadores": ["IND-P04"]
+    },
+    {
+      "id": "u09",
+      "nombre": "Andrés Gómez",
+      "rol": "Coordinador",
+      "area": "Ventas",
+      "areaId": "ventas",
+      "email": "a.gomez@agropecuaria.gt",
+      "avatar": "AG",
+      "indicadores": ["IND-C03"]
+    }
+  ]
+}

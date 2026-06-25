@@ -1,0 +1,41 @@
+{
+  "perspectivas": [
+    {
+      "id": "financiera",
+      "nombre": "Financiera",
+      "color": "#0078D4",
+      "icono": "AttachMoney",
+      "descripcion": "Maximizar rentabilidad y eficiencia en el uso de recursos"
+    },
+    {
+      "id": "clientes",
+      "nombre": "Clientes",
+      "color": "#107C10",
+      "icono": "People",
+      "descripcion": "Incrementar satisfacción y fidelización de clientes"
+    },
+    {
+      "id": "procesos",
+      "nombre": "Procesos Internos",
+      "color": "#FFB900",
+      "icono": "Agriculture",
+      "descripcion": "Optimizar eficiencia operativa en campo y postcosecha"
+    },
+    {
+      "id": "aprendizaje",
+      "nombre": "Aprendizaje y Crecimiento",
+      "color": "#D13438",
+      "icono": "School",
+      "descripcion": "Desarrollar capacidades del capital humano"
+    }
+  ],
+  "objetivos": [
+    { "id": "OE-F01", "perspectivaId": "financiera", "nombre": "Optimizar estructura de costos", "descripcion": "Reducir y controlar el costo operativo por hectárea" },
+    { "id": "OE-F02", "perspectivaId": "financiera", "nombre": "Incrementar ingresos", "descripcion": "Crecer las ventas y mejorar rentabilidad neta" },
+    { "id": "OE-C01", "perspectivaId": "clientes", "nombre": "Ampliar base de clientes", "descripcion": "Atraer nuevos clientes y retener los existentes" },
+    { "id": "OE-C02", "perspectivaId": "clientes", "nombre": "Mejorar satisfacción", "descripcion": "Superar las expectativas del cliente en calidad y servicio" },
+    { "id": "OE-P01", "perspectivaId": "procesos", "nombre": "Maximizar rendimiento de campo", "descripcion": "Optimizar producción agrícola por unidad de área" },
+    { "id": "OE-P02", "perspectivaId": "procesos", "nombre": "Reducir pérdidas postcosecha", "descripcion": "Minimizar mermas en almacén y distribución" },
+    { "id": "OE-A01", "perspectivaId": "aprendizaje", "nombre": "Fortalecer capital humano", "descripcion": "Capacitar al personal en competencias clave" }
+  ]
+}
