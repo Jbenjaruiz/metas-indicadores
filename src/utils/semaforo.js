@@ -13,8 +13,8 @@ export function calcularCumplimiento(valorReal, valorMeta, tipo = 'mayor') {
 
 export function calcularSemaforo(valorReal, valorMeta, tipo = 'mayor') {
   const pct = calcularCumplimiento(valorReal, valorMeta, tipo);
-  if (pct >= 90) return 'verde';
-  if (pct >= 70) return 'amarillo';
+  if (pct >= 100) return 'verde';
+  if (pct >= 85) return 'amarillo';
   return 'rojo';
 }
 
@@ -31,7 +31,7 @@ export const SEMAFORO_BG = {
 };
 
 export const SEMAFORO_LABEL = {
-  verde: 'En meta',
-  amarillo: 'En riesgo',
-  rojo: 'Crítico',
+  verde: 'En línea',
+  amarillo: 'Riesgo',
+  rojo: 'Desviado',
 };

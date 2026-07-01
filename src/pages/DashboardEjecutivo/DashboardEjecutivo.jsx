@@ -80,19 +80,19 @@ export default function DashboardEjecutivo() {
         <Grid item xs={6} sm={3}>
           <Card sx={{ textAlign: 'center', p: 2, borderTop: '3px solid #107C10' }}>
             <Typography variant="h2" sx={{ color: '#107C10', fontWeight: 700 }}>{resumen.verde}</Typography>
-            <Typography variant="caption" color="text.secondary">En meta</Typography>
+            <Typography variant="caption" color="text.secondary">En línea</Typography>
           </Card>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Card sx={{ textAlign: 'center', p: 2, borderTop: '3px solid #FFB900' }}>
             <Typography variant="h2" sx={{ color: '#FFB900', fontWeight: 700 }}>{resumen.amarillo}</Typography>
-            <Typography variant="caption" color="text.secondary">En riesgo</Typography>
+            <Typography variant="caption" color="text.secondary">Riesgo</Typography>
           </Card>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Card sx={{ textAlign: 'center', p: 2, borderTop: '3px solid #D13438' }}>
             <Typography variant="h2" sx={{ color: '#D13438', fontWeight: 700 }}>{resumen.rojo}</Typography>
-            <Typography variant="caption" color="text.secondary">Críticos</Typography>
+            <Typography variant="caption" color="text.secondary">Desviado</Typography>
           </Card>
         </Grid>
       </Grid>
@@ -103,7 +103,7 @@ export default function DashboardEjecutivo() {
             <CardContent>
               <Typography variant="h5" gutterBottom>Distribución semáforo</Typography>
               <DoughnutChart
-                labels={['En meta', 'En riesgo', 'Crítico']}
+                labels={['En línea', 'Riesgo', 'Desviado']}
                 values={[resumen.verde, resumen.amarillo, resumen.rojo]}
                 colors={['#107C10', '#FFB900', '#D13438']}
                 height={220}

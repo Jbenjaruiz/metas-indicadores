@@ -87,10 +87,10 @@ export default function Alertas() {
           <CardContent sx={{ pb: 0 }}>
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
               <WarningAmberIcon sx={{ color: '#FFB900' }} />
-              <Typography variant="h5" sx={{ color: '#C78A00' }}>En riesgo ({enRiesgo.length})</Typography>
+              <Typography variant="h5" sx={{ color: '#C78A00' }}>Riesgo ({enRiesgo.length})</Typography>
             </Box>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-              Cumplimiento 70–89% — plan de acción preventivo recomendado
+              Cumplimiento 85–99% — plan de acción preventivo recomendado
             </Typography>
           </CardContent>
           <List disablePadding>

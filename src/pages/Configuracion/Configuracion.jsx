@@ -73,9 +73,9 @@ export default function Configuracion() {
             <CardContent>
               <Typography variant="h5" gutterBottom>Parámetros del semáforo</Typography>
               {[
-                { color: '#107C10', label: 'Verde — En meta', condicion: 'Cumplimiento ≥ 90%' },
-                { color: '#FFB900', label: 'Amarillo — En riesgo', condicion: 'Cumplimiento 70–89%' },
-                { color: '#D13438', label: 'Rojo — Crítico', condicion: 'Cumplimiento < 70%' },
+                { color: '#107C10', label: 'Verde — En línea', condicion: 'Cumplimiento = 100%' },
+                { color: '#FFB900', label: 'Amarillo — Riesgo', condicion: 'Cumplimiento 85–99%' },
+                { color: '#D13438', label: 'Rojo — Desviado', condicion: 'Cumplimiento < 85%' },
               ].map((s) => (
                 <Box key={s.color} sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mb: 1.5 }}>
                   <Box sx={{ width: 12, height: 12, borderRadius: '50%', bgcolor: s.color, flexShrink: 0 }} />

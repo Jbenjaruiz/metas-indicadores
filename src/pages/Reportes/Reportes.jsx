@@ -72,9 +72,9 @@ export default function Reportes() {
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
                 {[
                   { label: 'Total indicadores', valor: resumen.total, color: 'text.primary' },
-                  { label: 'En meta (verde)', valor: resumen.verde, color: '#107C10' },
-                  { label: 'En riesgo (amarillo)', valor: resumen.amarillo, color: '#C78A00' },
-                  { label: 'Críticos (rojo)', valor: resumen.rojo, color: '#D13438' },
+                  { label: 'En línea (verde)', valor: resumen.verde, color: '#107C10' },
+                  { label: 'Riesgo (amarillo)', valor: resumen.amarillo, color: '#C78A00' },
+                  { label: 'Desviado (rojo)', valor: resumen.rojo, color: '#D13438' },
                   { label: 'Avances pendientes', valor: resumen.pendientes, color: '#605E5C' },
                 ].map((item) => (
                   <Box key={item.label} sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
